@@ -1,0 +1,30 @@
+body {
+    background-image: url(assets/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn2 {
+    background-color: #042331;
+    color: white;
+}
+
+.btn2:hover {
+    opacity: 0.9;
+}
+
+#card {
+    background: #fbfbfb;
+    border-radius: 0px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 350px;
+    margin: 1rem auto 1rem auto;
+    width: 340px;
+}
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: black;
+}

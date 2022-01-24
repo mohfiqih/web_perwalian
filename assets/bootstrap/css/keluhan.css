@@ -1,0 +1,97 @@
+body {
+    background-color: #eeeee4;
+}
+
+input,
+select,
+textarea {
+    margin: 5px;
+}
+
+.btn2 {
+    background-color: yellow;
+    /* Hijau */
+    border: none;
+    color: white;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    opacity: 0.9;
+}
+
+.btn3 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.btn3:hover {
+    opacity: 0.9;
+}
+
+.container {
+    width: 1000px;
+}
+
+.menu {
+    margin-left: -30px;
+}
+
+.header {
+    margin-top: -10px;
+}
+
+.judul {
+    text-align: center;
+}
+
+.card-header {
+    background-color: green;
+    color: white;
+}
+
+@media screen and (min-width: 500px) {
+    .card {
+        grid-column: span 4;
+
+    }
+}
+
+
+@media screen and (min-width: 500px) {
+
+    .card {
+        width: 1000px;
+        margin: 0 10px;
+    }
+}
+
+.card {
+    margin: 1rem auto 1rem auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.form-group,
+.buton {
+    text-align: left;
+}
+
+.card-body {
+    overflow: auto;
+}

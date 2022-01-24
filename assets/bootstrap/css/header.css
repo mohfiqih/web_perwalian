@@ -1,0 +1,29 @@
+.overlay::after {
+    content: '';
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.header-area {
+    position: relative;
+    height: 110vh;
+    background-image: url(https://1.bp.blogspot.com/-7c64_Plgb0s/YRVGZtxSmyI/AAAAAAAADnQ/pGeEcroH89MuYMoRgPgzGExNzJ5DzF3ZACLcBGAsYHQ/s2048/bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body {
+    position: relative;
+    height: 110vh;
+    background-image: url(https://1.bp.blogspot.com/-7c64_Plgb0s/YRVGZtxSmyI/AAAAAAAADnQ/pGeEcroH89MuYMoRgPgzGExNzJ5DzF3ZACLcBGAsYHQ/s2048/bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
